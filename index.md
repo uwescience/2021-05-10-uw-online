@@ -408,6 +408,15 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+<h4>Important:</h4>
+<p> If are enrolled in this course, you must email <a href="mailto:janekoh1@uw.edu">Jane Koh</a>
+  after you have followed the relevant setup instructions, below. Please include in the email whether
+  each of the four sets of instructions you followed resulted in success or an error, and if you received
+  an error or had trouble, please describe the problem. If you do not send this email by 3pm PDT on 
+  May 7th, 2021, your registration fee will be refunded, and your spot in the couse will be released to
+  someone else on the waitlist.
+</p>
+
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
