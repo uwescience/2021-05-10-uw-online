@@ -440,7 +440,7 @@ please preview your site before committing, and make sure to run
 </p>
 
 <h4>Important:</h4>
-<p> If are enrolled in this course, <b>you must email <a href="mailto:janekoh1@uw.edu">Jane Koh</a></b>
+<p> If you are enrolled in this course, <b>you must email <a href="mailto:janekoh1@uw.edu">Jane Koh</a></b>
   after you have followed the relevant setup instructions, below. Please include in the email whether
   each of the four sets of instructions you followed resulted in success or an error, and if you received
   an error or had trouble, please describe the problem. If you do not send this email by 3pm PDT on 
