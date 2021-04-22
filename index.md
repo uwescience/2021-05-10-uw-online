@@ -14,12 +14,12 @@ humantime: "9:00 AM - noon"    # human-readable times for the workshop (e.g., "9
 startdate: 2021-05-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-05-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Negin Valizadegan", "Bernease Herman", "Will Fondrie", "Calvin Pritchard"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Naomi Alterman", "Will Fondrie", "Rob Fatland", "Meredith Rawls", "Anupama Jha, "Negin Valizadegan"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Naomi Alterman", "Will Fondrie", "Rob Fatland", "Meredith Rawls", "Anupama Jha", "Negin Valizadegan"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["nben@uw.edu", "janekoh1@uw.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2021-05-10-uw-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 pyeventbrite: "151991327151" # optional: alphanumeric key for Python track Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-reventbrite:  "152023952735" # optional: alphanumeric key for R track Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+reventbrite: "152023952735" # optional: alphanumeric key for R track Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+#eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -83,7 +83,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-
+{% if page.eventbrite %}
 <strong> Eventbrite registration for the Python track:<strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.pyeventbrite}}&ref=etckt"
@@ -92,6 +92,8 @@ displayed if the 'eventbrite' field in the header is not set.
   height="280px"
   scrolling="auto">
 </iframe>
+{% endif %}
+{% if page.eventbrite %}
 <strong> Eventbrite registration for the R track:<strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.reventbrite}}&ref=etckt"
@@ -100,7 +102,7 @@ displayed if the 'eventbrite' field in the header is not set.
   height="280px"
   scrolling="auto">
 </iframe>
-
+{% endif %}
 
 
 <h2 id="general">General Information</h2>
