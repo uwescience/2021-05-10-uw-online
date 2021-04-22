@@ -18,8 +18,8 @@ helper: ["Naomi Alterman", "Will Fondrie", "Rob Fatland", "Meredith Rawls", "Anu
 email: ["nben@uw.edu", "janekoh1@uw.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2021-05-10-uw-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-pyeventbrite: "132848165439" # optional: alphanumeric key for Python track Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-reventbrite:  "" # optional: alphanumeric key for R track Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+pyeventbrite: "151991327151" # optional: alphanumeric key for Python track Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+reventbrite:  "152023952735" # optional: alphanumeric key for R track Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
