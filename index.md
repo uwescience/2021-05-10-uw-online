@@ -435,7 +435,7 @@ please preview your site before committing, and make sure to run
     Participants only need to follow the setup instructions for the modules of the course they are enrolled in.
     If you are enrolled in the Python track, you should follow the instructions for "<b>The Bash Shell</b>", "<b>Git</b>",
     "<b>Text Editor</b>", and "<b>Python</b>". 
-    If you are enrolled in the Python track, you should follow the instructions for "<b>The Bash Shell</b>", "<b>Git</b>",
+    If you are enrolled in the R track, you should follow the instructions for "<b>The Bash Shell</b>", "<b>Git</b>",
     "<b>Text Editor</b>", and "<b>R</b>". 
 </p>
 
