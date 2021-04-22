@@ -83,7 +83,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-{% if page.pyeventbrite %}
+
 <strong> Eventbrite registration for the Python track:<strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.pyeventbrite}}&ref=etckt"
@@ -92,8 +92,6 @@ displayed if the 'eventbrite' field in the header is not set.
   height="280px"
   scrolling="auto">
 </iframe>
-{% endif %}
-{% if page.reventbrite %}
 <strong> Eventbrite registration for the R track:<strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.reventbrite}}&ref=etckt"
@@ -102,7 +100,7 @@ displayed if the 'eventbrite' field in the header is not set.
   height="280px"
   scrolling="auto">
 </iframe>
-{% endif %}
+
 
 
 <h2 id="general">General Information</h2>
