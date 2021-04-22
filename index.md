@@ -70,7 +70,7 @@ This block includes the Eventbrite registration widget if
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
-{% if page.eventbrite || page.pyeventbrite || page.reventbrite %}
+{% if page.eventbrite or page.pyeventbrite or page.reventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 {% endif %}
